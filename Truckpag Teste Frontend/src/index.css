@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@custom-variant hover (&:hover);
+
+
+:root{
+  padding: 10px;
+  background-color: rgba(248, 248, 248, 0.877);
+}
