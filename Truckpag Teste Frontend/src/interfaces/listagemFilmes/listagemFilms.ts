@@ -18,7 +18,8 @@ export interface ListagemFilmes {
     url: string
     favorito:boolean
     assistido:boolean
-    anotação:string
+    check_anotacao:boolean
+    anotacao_descricao:string
   }
 
   
