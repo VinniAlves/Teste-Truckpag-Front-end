@@ -6,21 +6,17 @@ import { store } from '../src/provider/store';
 
 function App() {
   
-
   const routes = useRoutes();
-
 
   return(
     <Provider store={store}>
         <BrowserRouter>
           <Routes>
-            
               {
                 routes.map((route,index)=>(
                   <Route key={index} path={route.path} element={route.element}/>
                 ))
               }
-            
           </Routes>
         </BrowserRouter>
       </Provider>
