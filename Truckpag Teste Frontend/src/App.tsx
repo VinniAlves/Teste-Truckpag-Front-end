@@ -1,4 +1,3 @@
-import './App.css'
 import { BrowserRouter, Route,Routes } from 'react-router-dom'
 import useRoutes from './routes'
 import { Provider } from 'react-redux';
